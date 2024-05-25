@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <label id="txt1" name="calculadora">CALCULADORA</label><br>
+    <h1 id="tela" >0</h1>
+    <div id="entrada">
+    <label >Digite o primeiro número:</label>
+    <input type="text" id="num1" placeholder="Digite...">
+    <label id="txt2">Digite o segundo número:</label>
+    <input type="text" id="num2" placeholder="Digite...">
+    <button onclick="soma()" type="button">+</button>
+    <button onclick="sub()" type="button">-</button>
+    <button onclick="mult()"  type="button">x</button>
+    <button onclick="divisao()" type="button">&#247</button>
+    <button onclick="pot()" type="button">X<sup>x</sup></button>
+    <h1 id="visor"></h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
